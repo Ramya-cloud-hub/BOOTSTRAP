@@ -1,5 +1,9 @@
 body{
 margin: 0px;
+max-width: 1024px;
+margin: auto;
+display: block;
+font-family: sans-serif;
 }
 .container-fluid{
     max-width: 1024px;
@@ -63,6 +67,10 @@ h4,h3,h1,p{
 .asside-menu ul li{
     text-align: justify;
 }
+.carousel_images{
+    width: 700px;
+    height: 300px;
+}
 .images{
  width:250px;
  height:250px;
@@ -94,15 +102,28 @@ background-color: grey;
     background-color: rgba(255, 255, 0, 0.932);
     padding: 20px;
 }
-.password{
-    display: inline-block;
-    width: 130px;
-    text-transform: uppercase; 
-  }
+
   .email{
     display: inline-block;
-    width: 130px;
+    width: 200px;
     text-transform: uppercase; 
+  }
+  .name{
+    display: inline-block;
+    width: 200px;
+    text-transform: uppercase;  
+  }
+  .messeage{
+    display: inline-block;
+    width: 200px;
+    text-transform: uppercase;  
+    position: relative;
+    bottom: 45px;
+  }
+  .teliphone{
+    display: inline-block;
+    width: 200px;
+    text-transform: uppercase;  
   }
   .reset-button{
    padding: 10px;
@@ -117,12 +138,12 @@ background-color: grey;
     text-transform: uppercase; 
   }
   .buttons{
-    padding:0px 0px 20px 140px;
+    padding:0px 0px 20px 220px;
   }
   .form-items{
     border-style: solid;
     border-radius: 20px;
-    width:500px;
+    width:800px;
     display:block;
     margin: 0px;
     padding: 10px;
@@ -130,4 +151,4 @@ background-color: grey;
   .headline-login{
       padding: 10px;
       display: block;
-  }#BOOTSTRAP
+  }
